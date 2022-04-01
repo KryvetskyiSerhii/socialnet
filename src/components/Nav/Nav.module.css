@@ -1,0 +1,23 @@
+.nav {
+    grid-area: side;
+    background-color: blue;
+    padding: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff
+}
+
+.nav a:hover {
+    opacity: 0.5;
+}
+
+.nav__link {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav__link:not(:last-child) {
+    margin-bottom: 10px;
+}

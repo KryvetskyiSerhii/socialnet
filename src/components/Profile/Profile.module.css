@@ -1,0 +1,13 @@
+.content {
+    grid-area: main;
+    background-color: grey;
+  }
+  
+  
+  .back {
+    width: 100%;
+  }
+  
+  .space {
+    width: 100px;
+  }

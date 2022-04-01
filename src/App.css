@@ -1,0 +1,24 @@
+.app-wrapper {
+  display: grid;
+  grid-template-areas: 
+  "header header"
+  "side main";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  gap: 2px;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.app-wrapper-content {
+  
+    grid-area: main;
+    background-color: grey;
+  
+}
+
+
+
+
+
